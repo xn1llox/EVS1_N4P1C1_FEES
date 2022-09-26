@@ -21,5 +21,7 @@ from fees_proyecto1_app2 import views as app2
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('noticia/', app1.noticia),
-    path('informe/', app2.informe)
+    path('juegos/', app1.juegos),
+    path('informe/', app2.informe),
+    path('deporte/', app2.deporte)
 ]
