@@ -7,3 +7,7 @@ def noticia(request):
 
 def deporte(request):
     return HttpResponse("<h3>Candidato a presidencia de Emelec:</h3> Para Quinteros la prioridad es <cite>Colo Colo Carlos Torres<cite> explicó que el <mark>DT albo es una de las opciones</mark> que manejan.")
+
+def juegos(request):
+    return HttpResponse("<h3>Filtración GTA 6: Nueva información sobre el supuesto autor del hackeo:</h3> <br>La policía de Londres</br> afirma que el joven hacker, quien <mark>pertenecería a un grupo conocido como Lapsus$</mark>, compareció ante el Tribunal de <cite>Menores de Highbury Corner<cite> el pasado sábado 24 de septiembre.")
+

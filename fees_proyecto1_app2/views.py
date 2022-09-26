@@ -7,3 +7,8 @@ def informe(request):
 
 def juegos(request):
     return HttpResponse("<h2>Filtración GTA 6:</h2> <br>Nueva información sobre el supuesto autor del hackeo.<br> <mark>La policía de Londres afirma que el joven hacker</mark> quien pertenecería a un grupo conocido como <div>Lapsus$<div>, compareció ante el <cite>Tribunal de Menores de Highbury Corner</cite> el pasado sábado 24 de septiembre.")
+
+def deporte(request):
+    return HttpResponse("<h2>Colo Colo puede gritar campeón ante la UC: la programación de la fecha 26 del Campeonato Nacional:</h2>  <cite>Esta es la programación de la 26ª fecha</cite> del <mark>Campeonato Nacional.</mark> Una jornada donde Colo Colo <div>podría bajar la estrella 33</div> en el fútbol chileno")
+
+
